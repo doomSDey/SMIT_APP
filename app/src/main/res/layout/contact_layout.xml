@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="113dp"
+                android:layout_marginLeft="113dp"
+                android:layout_marginTop="24dp"
+                android:text="TextView"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView5"
+                android:layout_alignStart="@+id/textView5"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="15dp"
+                android:text="TextView"
+                android:textColor="@color/transparentwhite"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/call"
+                android:layout_width="22dp"
+                android:layout_height="24dp"
+                android:layout_below="@+id/textView6"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="31dp"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="23dp"
+                android:background="@android:drawable/stat_sys_phone_call_forward" />
+
+            <Button
+                android:id="@+id/email"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_below="@+id/textView6"
+                android:layout_marginStart="92dp"
+                android:layout_marginLeft="92dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="94dp"
+                android:layout_marginRight="94dp"
+                android:layout_toStartOf="@+id/share"
+                android:layout_toLeftOf="@+id/share"
+                android:layout_toEndOf="@+id/call"
+                android:layout_toRightOf="@+id/call"
+                android:background="@android:drawable/ic_dialog_email" />
+
+            <Button
+                android:id="@+id/share"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_below="@+id/textView6"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="23dp"
+                android:layout_marginEnd="33dp"
+                android:layout_marginRight="33dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/ic_menu_share" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

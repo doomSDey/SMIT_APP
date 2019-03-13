@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "427788416323",
+    "firebase_url": "https://smit-30c72.firebaseio.com",
+    "project_id": "smit-30c72",
+    "storage_bucket": "smit-30c72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427788416323:android:12cc447e020918ae",
+        "android_client_info": {
+          "package_name": "com.example.sudipta.smit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427788416323-q3k97gf95nq6efl5bh8fn40haor4ar6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAytAdPf9vMwp8OXvGIrhO-yiM2L3KLv-E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

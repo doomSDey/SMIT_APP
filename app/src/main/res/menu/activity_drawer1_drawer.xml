@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/HomeFrag"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/ecm"
+            android:icon="?android:attr/actionModeCopyDrawable"
+            android:title="ECM" />
+        <item
+            android:id="@+id/mess"
+            android:icon="@drawable/mess"
+            android:title="Mess" />
+        <item
+            android:id="@+id/mis"
+            android:icon="@drawable/mis"
+            android:title="MIS" />
+        <item
+            android:id="@+id/ion"
+            android:icon="@drawable/ion"
+            android:title="ION" />
+        <item
+            android:id="@+id/contacts"
+            android:icon="@drawable/call"
+            android:title="Contacts" />
+
+    </group>
+<!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+-->
+</menu>
